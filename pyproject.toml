@@ -1,0 +1,25 @@
+[project]
+name = "comfyui-my-templates"
+description = "Save, categorize and reload your own ComfyUI workflows as private templates with image / 3-second video thumbnails. File menu integration + dedicated topbar button + draggable resizable window."
+version = "1.0.0"
+license = {file = "LICENSE"}
+readme = "README.md"
+requires-python = ">=3.9"
+keywords = ["comfyui", "workflow", "templates", "thumbnails", "ui", "productivity"]
+
+# No Python deps beyond what ComfyUI already ships (aiohttp, server module)
+dependencies = []
+
+[project.urls]
+Repository = "https://github.com/trelohra-hash/comfyui-my-templates"
+"Bug Tracker" = "https://github.com/trelohra-hash/comfyui-my-templates/issues"
+
+[tool.comfy]
+# ⚠ Set this AFTER you create a publisher on https://registry.comfy.org/
+#   (only needed for one-click install via ComfyUI Manager — optional for now)
+PublisherId = "YOUR_PUBLISHER_ID"
+DisplayName = "My Templates"
+Icon = ""
+
+# Frontend extension: no native nodes
+includes = ["js"]
