@@ -5,6 +5,7 @@ Save, categorize and reload your own ComfyUI workflows as private templates — 
 ![status](https://img.shields.io/badge/status-stable-brightgreen)
 ![license](https://img.shields.io/badge/license-MIT-blue)
 
+![My Templates Screenshot](screenshots/My_templates.jpg)
 ---
 
 ## Features
