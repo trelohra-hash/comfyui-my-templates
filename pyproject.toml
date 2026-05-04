@@ -17,7 +17,7 @@ Repository = "https://github.com/trelohra-hash/comfyui-my-templates"
 [tool.comfy]
 # ⚠ Set this AFTER you create a publisher on https://registry.comfy.org/
 #   (only needed for one-click install via ComfyUI Manager — optional for now)
-PublisherId = "YOUR_PUBLISHER_ID"
+PublisherId = "trelohra-hash"
 DisplayName = "My Templates"
 Icon = ""
 
